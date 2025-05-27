@@ -4,9 +4,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        swicth = False
-        t = 1
-        for i in range(0, len(nums)):
+        #swicth = False
+        #t = 1
+        l = len(nums)
+        for i in range(0, l):
             #if 0 not in nums and len(nums) > 1:
             #    if t not in nums and t == i:
             #        t = i+1
