@@ -15,8 +15,10 @@ class Solution(object):
             #elif i not in nums:
             #    return i   
         #return i+1
-        
-        for i in range(len(nums)):
-           if i not in nums:
-            return i   
-        return i+1
+        if len(nums) in nums:
+            for i in range(len(nums)):
+                if i not in nums:
+                    return i   
+            return i+1
+        else:
+            return len(nums)
