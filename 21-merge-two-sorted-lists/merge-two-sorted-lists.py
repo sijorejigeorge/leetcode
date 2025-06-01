@@ -97,7 +97,7 @@ class Solution(object):
                     
                     list2 = list2.next
                 
-            print(st)
+            #print(st)
                 
         return head
             
