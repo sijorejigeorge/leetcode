@@ -26,11 +26,11 @@ class Solution(object):
         while list1 or list2:
             if list1 and list2:
                 if list1.val < list2.val:
-                    print(list1.val)
+                    
                     if head.val == 0:
                         st = ListNode(list1.val)
                         head = st
-                        print(head)
+                        
                         if st.next != None:
                             st = st.next
                     else:
